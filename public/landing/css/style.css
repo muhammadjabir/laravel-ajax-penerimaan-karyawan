@@ -1,0 +1,53 @@
+
+/*-- NAVBAR --*/
+#main-navbar {
+  -webkit-box-shadow: -1px 7px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 7px 5px 1px rgba(0,0,0,0.75);
+box-shadow: -1px 7px 5px 1px rgba(0,0,0,0.75);
+} 
+#main-navbar .nav-link{
+  border-bottom: 5px solid #f8f9fa;
+  text-transform: uppercase;
+}
+#main-navbar a:hover, #main-navbar .active{
+  border-bottom-color: black;
+  transition: border-color 500ms;
+}
+
+
+/*-- SHOWCASE --*/
+#showcase{
+  background: url('../img/showcase_bg.jpg');
+  height: 654px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.persyaratan li{
+  font-size: 14px !important;
+}
+#showcase h1{
+  padding-top: 250px;
+}
+
+#lamaran{
+  margin-top: 50px;
+}
+
+.dark-overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 654px;
+}
+
+.gambar{
+  height: 150px !important;
+}
+.col-md-3{
+  margin-top: 20px;
+}
